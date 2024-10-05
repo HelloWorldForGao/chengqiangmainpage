@@ -1,8 +1,15 @@
 .ncenter {
     text-align: left;
 }
-p,h1,h2,h3,h4,h5,h6,blockquote,button {
+p,h1,h2,h3,h4,h5,h6,blockquote {
     text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-shadow: 2px 2px #114514;
+}
+.fnref {
+    top: -0.5em;
+    font-size: 75%;
 }
 html {
     background:url(background.png);
@@ -53,4 +60,11 @@ blockquote.warn:before {
 blockquote.note:before {
     content: "备注：";
     color: #5f9fd6;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 0.8em;
+    height: 10px;
 }
