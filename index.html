@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="1.css">
         <link rel="icon" type="image/jpg" href="icon.jpg">
+        <script src="1.js"></script>
         <title>
             城墙守卫战 主页
         </title>
@@ -18,6 +19,9 @@
             </audio>
         </blockquote>
         <hr/>
+        <noscript>
+            <blockquote class = "warn">你的浏览器咋还不支持JS呢，说实话，你的浏览器是从兵马俑里还是从三星堆里挖出来的</blockquote>
+        </noscript>
         <h2 id = "part0">目录</h2>
         <a href = "#part1"><p>第一部分 - 简介</p></a>
         <a href = "#part2"><p>第二部分 - 下载</p></a>
@@ -31,10 +35,76 @@
         <hr/>
         <h2 id = "part2">下载</h2>
         <p>前往<a href = "https://github.com/HelloWorldForGao/chengqiangbattle">Github源</a>或<a href = "https://gitee.com/yuanshencxk/chengqiang101">Gitee源</a>以下载</p>
-        <blockquote class = "note">Github源速度较慢（如果你有<a href = "https://steampp.net/">Watt toolkit</a>，那就是另外一回事了），建议去Gitee源</blockquote>
+        <blockquote class = "note" id = "watt_toolkit">Github源速度较慢（如果你有<a href = "https://steampp.net/" onclick="watt_toolkit()" target="_blank">Watt toolkit</a>，那就是另外一回事了），建议去Gitee源</blockquote>
+        <p>下面是正式版下载链接</p>
+        <table border = "1" cellspacing = "0" align = "center">
+            <thead>
+                <tr>
+                    <th><b>版本号</b></th>
+                    <th><b>更新内容</b></th>
+                    <th><b>下载链接</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.0</td>
+                    <td>
+                        <ul>
+                            <li><p>首发版本，没有更新内容</p></li>
+                        </ul>
+                    </td>
+                    <td><a href = "https://gitee.com/yuanshencxk/chengqiang101/releases/download/v1.0/1.0.zip" target = "_blank" download = ".zip">点此下载</a></td>
+                </tr>
+                <tr>
+                    <td>1.1</td>
+                    <td>
+                        <ul>
+                            <li><p>现在点击屏幕，回合数不会再增加</p></li>
+                            <li><p>现在有了背景音乐（都是HOYO-Mix的，分别是“星穹铁道”和“危机预知”）</p></li>
+                            <li><p>现在有了能量点显示，回合数显示</p></li>
+                            <li><p>文字被换成了汉仪文黑85w</p></li>
+                        </ul>
+                    </td>
+                    <td><a href = "https://gitee.com/yuanshencxk/chengqiang101/releases/download/v1.1/1.1.exe" target = "_blank" download = ".exe">点此下载</a></td>
+                </tr>
+                <tr>
+                    <td>1.2</td>
+                    <td>
+                        <ul>
+                            <li><p>用nsis打包成了exe</p></li>
+                        </ul>
+                    </td>
+                    <td><a href = "https://gitee.com/yuanshencxk/chengqiang101/releases/download/v1.2/1.2.exe" target = "_blank" download = ".exe">点此下载</a></td>
+                </tr>
+                <tr>
+                    <td>1.3</td>
+                    <td>
+                        <ul>
+                            <li><p>图片大更新！</p></li>
+                            <li><p>现在有了展示框，打印区基本就没用了</p></li>
+                            <li><blockquote class = "warn">通过第一，二个链接打开的python运行时可能无法正常下载，此时请前往Python官网！</blockquote></li>
+                        </ul>
+                    </td>
+                    <td><a href = "https://gitee.com/yuanshencxk/chengqiang101/releases/download/v1.3/1.3.exe" target = "_blank" download = ".exe">点此下载</a></td>
+                </tr>
+                <tr>
+                    <td>1.4</td>
+                    <td>
+                        <ul>
+                            <li><p>新动画</p></li>
+                            <li><p>对图像进行了一点点小小的修改</p></li>
+                            <li><p>技能描述</p></li>
+                            <li><p>更多悬空图像</p></li>
+                        </ul>
+                    </td>
+                    <td><a href = "https://gitee.com/yuanshencxk/chengqiang101/releases/download/v1.4/1.4.exe" target = "_blank" download = ".exe">点此下载</a></td>
+                </tr>
+            </tbody>
+        </table>
         <hr/>
         <h2 id = "lastpart">注意</h2>
         <p>1.用<code>python</code>编写，其中包含<code>pgzero</code>这个外置库，可以运行<code>pip install pgzero</code>安装</p>
         <blockquote>HelloWorldForGao制作，基于<code>HydroOJ</code>设计css，由<code>Github</code>托管代码</blockquote>
+        <hr/>
     </body>
 </html>

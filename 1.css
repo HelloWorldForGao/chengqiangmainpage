@@ -30,6 +30,12 @@ blockquote {
     border-radius: 10px;
 }
 
+table {
+    background: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+}
+
 blockquote:before {
     display: block;
     margin-bottom: 0.6rem;
